@@ -6,9 +6,16 @@ Install the package through Composer.
 
 ```js
 {
+
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/carestar/Laravel-Model-Validation.git"
+		}
+	],
     "require": {
         "laravel/framework": "4.0.*",
-        "way/database": "dev-master"
+        "carestar/laravel-model-validation": "dev-master"
     }
 }
 ```
